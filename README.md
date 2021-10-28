@@ -48,8 +48,11 @@ We used the uncased Bert-base model that can be found [here](https://tfhub.dev/g
 
 Follow the steps bellow in order to run BERT_preprocessing_acceleration.ipynb:
 
-**Step 1**: Create a new colab file and choose upload Notebook. Click Github, find this repository and then upload BERT_preprocessing_acceleration.ipynb.
-**Step 2**: Choose the dataset that you want to run and put it equal to True. The other datasets should be equal to False.
-**Step 3**: Choose the preprocessing technique that you want to run and put it equal to True. The other techniques should be equal to False. If you dont want to run any technique, put all techniques equal to False.
+**Step 1**: Create a new colab file and choose upload Notebook. Click Github, find this repository and then upload BERT_preprocessing_acceleration.ipynb.  <br />
+
+**Step 2**: Choose the dataset that you want to run and put it equal to True. The other datasets should be equal to False.  <br />
+
+**Step 3**: Choose the preprocessing technique that you want to run and put it equal to True. The other techniques should be equal to False. If you dont want to run any technique, put all techniques equal to False. <br />
+
 **Step 4**: Run the code.
 
