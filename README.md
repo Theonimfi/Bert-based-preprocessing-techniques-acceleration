@@ -44,15 +44,35 @@ For each one of the above datasets, we have created a shared file in drive that 
 
 We used the uncased Bert-base model that can be found [here](https://tfhub.dev/google/bert_uncased_L-12_H-768_A-12/1).
 
-## Instructions on how to run the code
+## Getting Started
 
-Follow the steps bellow in order to run BERT_preprocessing_acceleration.ipynb:
+This section presents the guidelines that will help you run the BERT_preprocessing_acceleration.ipynb file for every dataset and every preprocessing technique to get the accuracy of Bert-base model for each experiment.
 
-**Step 1**: Create a new colab file and choose upload Notebook. Click Github, find this repository and then upload BERT_preprocessing_acceleration.ipynb.  <br />
+### Prerequisites
 
-**Step 2**: Choose the dataset that you want to run and put it equal to True. The other datasets should be equal to False.  <br />
+In order to run the BERT_preprocessing_acceleration.ipynb file you need to copy [this sheet](https://docs.google.com/spreadsheets/d/1aG9SegoFhS4J8TbGwPhQiWQsYqqAoJnmdu6idd0OM3g/edit?usp=sharing) in your google drive.  <br />
 
-**Step 3**: Choose the preprocessing technique that you want to run and put it equal to True. The other techniques should be equal to False. If you dont want to run any technique, put all techniques equal to False. <br />
+If you are not able to copy the sheet, then you should create it on your own. Particularly, you need to create a google sheet called **Bert results**. In this sheet, you should add the following 8 columns:
+1. A1 cell: preprocessing techniques
+2. B1 cell: eval_accuracy	
+3. C1 cell: false_negatives	
+4. D1 cell: false_positives	
+5. E1 cell: loss	
+6. G2 cell: true_negatives	
+7. H1 cell: true_positives	
+8. I1 cell: global_step
 
-**Step 4**: Run the code.
+This file will include the results of Bert-model, after running the code.
+
+### Installation
+
+In order to run the experiments, you need to install the BERT_preprocessing_acceleration.ipynb in your [google colab](https://colab.research.google.com/). To do so, follow the steps bellow:
+
+**Step 1**: Create a new colab file and choose upload notebook. <br />
+
+**Step 2**: Click Github.  <br />
+
+**Step 3**: Choose this repository. <br />
+
+**Step 4**: Upload BERT_preprocessing_acceleration.ipynb.
 
