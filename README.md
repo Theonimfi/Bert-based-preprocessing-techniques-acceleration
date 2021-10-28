@@ -29,7 +29,7 @@ We use the following preprocessing techniques:
 We used the following Sentiment Analysis Datasets:
 
 1. [Twitter US Airline Sentiment](https://www.kaggle.com/crowdflower/twitter-airline-sentiment)
-2. [Consumer Reviews of Amazon Products]{https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products)
+2. [Consumer Reviews of Amazon Products](https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products)
 3. [Automotive Products Reveiw](https://jmcauley.ucsd.edu/data/amazon/)
 4. [Sentiment Self-driving Cars](https://data.world/crowdflower/sentiment-self-driving-cars)
 
