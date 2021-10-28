@@ -76,3 +76,6 @@ In order to run the experiments, you need to install the BERT_preprocessing_acce
 
 **Step 4**: Upload BERT_preprocessing_acceleration.ipynb.
 
+### Implementation
+
+To get the accuracy for each dataset and each preprocessing technique, you need to run the code for each one of the combination dataset-preprocessing technique separately. To do so, you need to change the section of the code that indicated which dataset you want to use and which preprocessing technique. <br />
