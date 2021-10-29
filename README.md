@@ -80,9 +80,14 @@ In order to run the experiments, you need to install the BERT_preprocessing_acce
 
 To get the accuracy for each dataset and each preprocessing technique, you need to run the code for each one of the combination dataset-preprocessing technique separately. To do so, you need to change the section of the code that indicated which dataset you want to use and which preprocessing technique. <br />
 
-**Example1**: If you want to get the accuracy of the Dataset_1 (Twitter US Airline Sentiment) without applying any technique, you need to put the value of Dataset_1 equal to True, and make sure that all the other datasets are equal to False.  <br />
-![Dataset_1=True. All other datasets equals to False.](img/change_dataset.png)<br />
-![All preprocessing techniques equals to False.](img/change_preprtechniques.png)<br />
+**Example1**: If you want to get the accuracy of the Dataset_1 (Twitter US Airline Sentiment) without applying any technique, you need to put the value of Dataset_1 equal to True, and make sure that all the other datasets are equal to False as well as all the preprocessing techniques are equal to false as shown below.  <br />
+<p align="center">
+  <img src="img/change_dataset.png" />
+</p>
+<p align="center">
+  <img src="img/change_preprtechniques.png" />
+</p>
+
 **Example2**: If you want to get the accuracy of the Dataset_1 (Twitter US Airline Sentiment) when applying lowercasing technique, you need to put the value of Dataset_1 equal to True, and make sure that all the other datasets are equal to False adn you also need to put the value True to the lowarcase variable and make sure that all the other techniques are equal to False. <br />
 
 After running an experiment, the results will be saved in the Bert results sheet in your google drive. <br />
