@@ -46,11 +46,11 @@ We used the uncased Bert-base model that can be found [here](https://tfhub.dev/g
 
 ## Getting Started
 
-This section presents the guidelines that will help you run the BERT_preprocessing_acceleration.ipynb file for every dataset and every preprocessing technique to get the accuracy of Bert-base model for each experiment.
+This section presents the guidelines that will help you run the Bert_based_evaluation.ipynb file for every dataset and every preprocessing technique to get the accuracy of Bert-base model for each experiment.
 
 ### Prerequisites
 
-In order to run the BERT_preprocessing_acceleration.ipynb file you need to copy [this sheet](https://docs.google.com/spreadsheets/d/1aG9SegoFhS4J8TbGwPhQiWQsYqqAoJnmdu6idd0OM3g/edit?usp=sharing) in your google drive.  <br />
+In order to run the Bert_based_evaluation.ipynb file you need to copy [this sheet](https://docs.google.com/spreadsheets/d/1aG9SegoFhS4J8TbGwPhQiWQsYqqAoJnmdu6idd0OM3g/edit?usp=sharing) in your google drive.  <br />
 
 If you are not able to copy the sheet, then you should create it on your own. Particularly, you need to create a google sheet called **Bert results**. In this sheet, you should add the following 8 columns:
 1. A1 cell: preprocessing techniques
@@ -66,7 +66,7 @@ This file will include the results of Bert-model, after running the code.
 
 ### Installation
 
-In order to run the experiments, you need to install the BERT_preprocessing_acceleration.ipynb in your [google colab](https://colab.research.google.com/). To do so, follow the steps bellow:
+In order to run the experiments, you need to install the Bert_based_evaluation.ipynb in your [google colab](https://colab.research.google.com/). To do so, follow the steps bellow:
 
 **Step 1**: Create a new colab file and choose upload notebook. <br />
 
@@ -74,7 +74,7 @@ In order to run the experiments, you need to install the BERT_preprocessing_acce
 
 **Step 3**: Choose this repository. <br />
 
-**Step 4**: Upload BERT_preprocessing_acceleration.ipynb.
+**Step 4**: Upload Bert_based_evaluation.ipynb.
 
 ### Implementation
 
