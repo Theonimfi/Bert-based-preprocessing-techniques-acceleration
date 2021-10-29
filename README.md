@@ -94,3 +94,6 @@ After running an experiment, the results will be saved in the Bert results sheet
 
 ***Note**: the first time you will run the code, you will be ask to authenticate your account in order to be able to save the results in your google sheet.*
 
+### Analysis
+
+You can also reproduce the tables and the heatmaps shown in the paper by running results_analysis.ipynb code in your colab account.
